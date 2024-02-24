@@ -60,6 +60,32 @@
                 ?>
             </tbody>
         </table>
+        <h2>Data luas lingkaran</h2>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Luas Lingkaran</th>
+                    <th>Nilai</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php
+               $jari = 8;
+               $luas = PHI * $jari * $jari;
+               $kll = 2 * PHI * $jari;
+               echo "<tr>";
+               echo "<td>Luas Lingkaran</td>";
+               echo "<td>$luas</td>";
+               echo "</tr>";
+               
+               echo "<tr>";
+               echo "<td>Keliling</td>";
+               echo "<td>$kll</td>";
+               echo "</tr>";  
+               echo "</table>";
+                ?>
+            </tbody>
+        </table>
 
         <h2>Data Buah</h2>
         <table class="table table-striped table-bordered">
