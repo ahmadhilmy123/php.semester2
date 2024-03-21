@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penilaian Siswa</title>
+    <title>Penilaian Mahasiswa</title>
     <style>
         h2 {
             text-align: center;
@@ -65,7 +65,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Form Penilaian Siswa</h2>
+        <h2>Form Penilaian Mahasiswa</h2>
         <form method="POST" action="nilai.php">
             <label for="nama">Nama:</label>
             <input type="text" id="nama" name="nama" required placeholder="Masukan Nama"><br>
