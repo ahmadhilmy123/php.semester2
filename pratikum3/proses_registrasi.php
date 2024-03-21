@@ -108,7 +108,7 @@ if (isset($_POST['submit'])) {
                 <li class="list-group-item"><strong>Skill :</strong> <?= implode(", ", $skill_pilihan) ?></li>
                 <li class="list-group-item"><strong>Skor Skill :</strong> <?= $skor ?></li>
                 <li class="list-group-item"><strong>Kategori Skill :</strong> <?= $kategori ?></li>
-                <li class="list-group-item"><strong>Email :</strong> <?= $domisili ?></li>
+                <li class="list-group-item"><strong>Domisili :</strong> <?= $domisili ?></li>
                 <li class="list-group-item"><strong>Email :</strong> <?= $email ?></li>
             </ul>
         </div>
